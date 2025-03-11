@@ -1,0 +1,48 @@
+# Binaries
+*.exe
+*.out
+*.o
+*.so
+*.a
+*.dll
+
+# Build artifacts
+/build/
+/bin/
+/dist/
+
+# Go modules
+go.mod
+go.sum
+vendor/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and debug files
+*.log
+*.test
+*.cover
+*.prof
+
+# Temporary files
+*.tmp
+*.bak
+
+# Docker and environment files
+.env
+docker-compose.override.yml
+
+# Coverage and test results
+cover.out
+*.cov
+
+# Caches
+.cache/
